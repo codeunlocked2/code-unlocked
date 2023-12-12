@@ -50,7 +50,7 @@ const Navbar = () => {
 
   return (
 <header
-  className='w-full px-32 py-4 font-medium  flex items-center justify-between dark:text-light lg:px-16 md:px-12 sm:px-5'
+  className='fixed w-full px-32 py-4 font-medium bg-[#201f1f00] backdrop-blur-[5px] flex items-center justify-between dark:text-light lg:px-16 md:px-12 sm:px-5 z-20'
 >
 
     <div className='w-full justify-between items-center hidden lg:flex'>
@@ -126,7 +126,7 @@ const Navbar = () => {
         transition={{ type: "spring", damping: 10, stiffness: 100, duration: 0.5 }}
 
 
-        className='min-w-[50px] flex flex-col justify-between z-30 items-center fixed xl:right-24 lg:right-7 md:right-3 sm:-right-4 sm:top-56 top-1/2 bg-light/30 dark:bg-light/10 rounded-full backdrop-blur-md py-4'>
+        className='min-w-[50px] flex flex-col justify-between z-30 items-center fixed xl:right-24 lg:right-7 md:right-3 sm:-right-4 sm:top-56 top-1/2 bg-light/30 backdrop-blur-lg dark:bg-light/10 rounded-full py-4'>
         <nav className='flex items-center flex-col justify-center'>
             <CustomMobileLink href="/" icon={<HomeIcon/>} className='mb-6 sm:mb-3 dark:fill-light' aria-label="Home" toggle={handleClick} />
             <CustomMobileLink href="/about" icon={<UserIcon/>} className='mb-10 sm:mb-7 text-2xl' aria-label="About"  toggle={handleClick} />
