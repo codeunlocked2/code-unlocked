@@ -67,7 +67,7 @@ const support = () => {
 
           <div className="grid grid-cols-12 w-full mx-auto relative gap-16 xl:gap-x-8 lg:gap-x-2 md:gap-y-8 sm:gap-x-0">
             <div className="col-span-12">
-             <h1 className='font-bold  text-2xl'> <span className='text-[#ff1f1f] text-3xl' >Note:</span> Click on the box to see the questions answer.</h1>
+             <h1 className='font-bold  text-2xl dark:text-light'> <span className='text-[#ff1f1f] text-3xl' >Note:</span> Click on the box to see the questions answer.</h1>
             </div>
 
             <div className="col-span-6 lg:col-span-12">

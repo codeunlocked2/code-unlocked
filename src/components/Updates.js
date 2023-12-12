@@ -6,15 +6,18 @@ import update1 from '../../public/images/articles/update-2.png'
 import project4 from "../../public/images/projects/project4.png"
 
 
-const FeaturedUpdates = ({img, title, date, summary, link}) => {
-    return(
-        <li 
-        
-        className=' w-full flex flex-col mx-auto p-1 gap-6 bg-light dark:bg-dark  border border-solid border-dark dark:border-light rounded-2xl hover:shadow-[5px_5px_0px_0px] dark:hover:shadow-[5px_5px_0px_0px_#fff] transition-all'>
+const FeaturedUpdates = ({ img, title, date, summary, link }) => {
+    return (
+        <li
+            initial={{ y: 200 }}
+            whileInView={{ y: 0, transition: { duration: 0.7, ease: "easeIn" } }}
+            viewport={{ once: true }}
+
+            className='flex items-center justify-center h-auto w-full mx-auto p-1 gap-6 bg-light dark:bg-dark  border border-solid border-dark dark:border-light rounded-md hover:shadow-[5px_5px_0px_0px] dark:hover:shadow-[5px_5px_0px_0px_#fff] transition-all'>
             <Link href={link} target='_blank' className='w-full cursor-pointer overflow-hidden rounded-lg' >
-                <Image src={img} alt={title} className='w-full h-auto border border-dark/50 rounded-2xl scale-95 hover:scale-100 transition duration-500 cursor-pointer'
-                priority 
-                sizes='(max-width: 768px) 100vw,
+                <Image src={img} alt={title} className='w-full h-auto border border-dark/50 rounded-md scale-95 hover:scale-100 transition duration-500 cursor-pointer'
+                    priority
+                    sizes='(max-width: 768px) 100vw,
                   (max-width: 1200px) 50vw, 50vw
                 '
                 />
@@ -22,16 +25,15 @@ const FeaturedUpdates = ({img, title, date, summary, link}) => {
 
             <div className='p-4'>
 
-                <span className='text-dark/50 dark:text-light/50 text-xl font-bold '>{date}</span>
+                <span className='text-dark/50 dark:text-light/50 text-xl font-bold t'>{date}</span>
                 <Link href={link} target='_blank' className='hover:underline underline-offset-2 transition-all'>
-                    <h2 className='my-2 w-full text-left dark:text-light text-3xl font-bold lg:text-2xl sm:text-xl line-clamp-1'> {title} </h2>
+                    <h1 className='my-2 w-full text-left dark:text-light text-xl font-bold lg:text-2xl sm:text-xl xs:text-xs line-clamp-1'> {title} </h1>
                 </Link>
-                <p className='font-medium dark:text-light/70 line-clamp-2'>{summary}</p>
+                <p className='font-medium text-xs dark:text-light/70 line-clamp-1'>{summary}</p>
             </div>
         </li>
     )
 }
-
 
 const Updates = () => {
   return (
