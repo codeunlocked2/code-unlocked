@@ -11,6 +11,8 @@ import project4 from "../../public/images/projects/project4.png"
 import project5 from "../../public/images/projects/project5.png"
 import project6 from "../../public/images/projects/mega.png"
 import project7 from "../../public/images/projects/sehlvet.png"
+import project8 from "../../public/images/projects/sellrs.png"
+import project9 from "../../public/images/projects/levntura.png"
 
 
 import { motion } from 'framer-motion'
@@ -26,7 +28,7 @@ const FeaturedProjects = ({ type, title, summary, img, link, review }) => {
             viewport={{ once: true }}
 
 
-            className='w-full p-1 flex flex-col items-center justify-between rounded-2xl border border-solid border-dark/30 bg-light dark:border-light/40 dark:bg-dark dark:backdrop-blur-sm hover:shadow-[5px_5px_0px_0px] dark:hover:shadow-[5px_5px_0px_0px_#fff] transition-all '>
+            className='w-full p-1 flex flex-col items-center justify-between rounded-2xl border border-solid border-dark/30 bg-light dark:border-light/20 dark:bg-[#5555550a] dark:backdrop-blur-sm hover:shadow-[5px_5px_0px_0px] dark:hover:shadow-[5px_5px_0px_0px_#fff] transition-all '>
             <Link href={link} target='_blank'
                 className='w-full cursor-pointer overflow-hidden rounded-lg'
             >
@@ -40,7 +42,6 @@ const FeaturedProjects = ({ type, title, summary, img, link, review }) => {
             </Link>
 
             <div className='w-full flex flex-col items-start justify-between px-4 pb-3 pt-7'>
-
                 <Link href={link} target='_blank' className='hover:underline underline-offset-2 transition-all'>
                     <h1 className='w-full text-left dark:text-white text-3xl font-bold lg:text-2xl sm:text-xl line-clamp-1'> {title} </h1>
                 </Link>
@@ -81,8 +82,8 @@ const projects = () => {
 
                         <div className='col-span-6 lg:col-span-12 '>
                             <FeaturedProjects
-                                title="Mega Group Company"
-                                summary="Animated Preloader, Custom Cursor, Parallax Scroll, Animated Buttons, Animated Slider & also fully Responsive for all Devices"
+                                title="Mega - Mega Group Company"
+                                summary="Animated Preloader, Custom Cursor, High resulation background video, Parallax Scroll, Animated Buttons, Animated Slider & also fully Responsive for all Devices"
                                 img={project6}
                                 link="https://mega-blue.vercel.app/"
                                 review="/"
@@ -96,7 +97,7 @@ const projects = () => {
                     <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'>
                         <div className='col-span-6 lg:col-span-12'>
                             <FeaturedProjects
-                                title="AI Web Application"
+                                title="Secret Ai - AI Web Application"
                                 summary="User Authentication, New user Free Trail, AI ChatBot, Image Generator, Music Generator, Video Generator, Code Generator, User Support System, Simple Design, Responsive for all devices."
                                 img={project3}
                                 link="https://secret-ai.vercel.app/"
@@ -108,7 +109,7 @@ const projects = () => {
 
                         <div className='col-span-6 lg:col-span-12'>
                             <FeaturedProjects
-                                title="Mobile Shop Website"
+                                title="Apple - Mobile Shop Website"
                                 summary="Simple Design, Just Frontend, E-commerce Website, Fully Responsive for all devices, Home Page, Blog Page, And all Product Show Page."
                                 img={project1}
                                 link="https://project-apple-shop.netlify.app/"
@@ -132,22 +133,14 @@ const projects = () => {
 
                         <div className='col-span-6 lg:col-span-12'>
                             <FeaturedProjects
-                                title="Music Web Appliaction"
-                                summary="Updating"
-                                img={project1}
-                                link="/"
+                                title="Sellrs - Providing a leading comparison platform."
+                                summary="Simple & professional design, Offical Ui, Cool Box Shadow, Just Home page, fully responsive for all devices."
+                                img={project8}
+                                link="https://sellrs-beta.vercel.app/"
                                 review="/"
                                 type="Featured Projects"
                             />
                         </div>
-
-
-                    </div>
-
-
-                    <AnimatedText text="Figma to Html" className='!text-6xl text-dark/10 text-left dark:text-light/20 mt-32 mb-12 xl:!text-5xl lg:!text-6xl md:!text-5xl sm:!text-3xl' />
-
-                    <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'>
 
 
                         <div className='col-span-6 lg:col-span-12'>
@@ -161,10 +154,9 @@ const projects = () => {
                             />
                         </div>
 
-
                         <div className='col-span-6 lg:col-span-12'>
                             <FeaturedProjects
-                                title="Resturent Landing Page Design"
+                                title="Dyshez - Resturent Landing Page Design"
                                 summary="Simple Design, Just Frontend, E-commerce Website, Fully Responsive for all devices, Just Home Page."
                                 img={project5}
                                 link="https://dyshez-woad.vercel.app/"
@@ -172,17 +164,15 @@ const projects = () => {
                                 type="Featured Projects"
                             />
                         </div>
-                    </div>
 
-                    <AnimatedText text="Ui Ux Design" className='!text-6xl text-dark/10 text-left dark:text-light/20 mt-32 mb-12 xl:!text-5xl lg:!text-6xl md:!text-5xl sm:!text-3xl' />
 
-                    <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'>
                         <div className='col-span-6 lg:col-span-12'>
                             <FeaturedProjects
-                                title="Music Web Appliaction"
-                                summary="Updating"
-                                img={project1}
-                                link="/"
+                                title="Levntura- Converting studies
+                                into adventures"
+                                summary="Video background, Prallax header, Clients Slider, Gellery Slider, Creative Ui/Ux, Brand Logo, Cool color combination, Frontend, Travel Website, Fully Responsive for all devices, Just Home Page."
+                                img={project9}
+                                link="https://levntura-five.vercel.app/"
                                 review="/"
                                 type="Featured Projects"
                             />

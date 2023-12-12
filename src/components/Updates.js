@@ -27,7 +27,7 @@ const FeaturedUpdates = ({ img, title, date, summary, link }) => {
 
                 <span className='text-dark/50 dark:text-light/50 text-xl font-bold t'>{date}</span>
                 <Link href={link} target='_blank' className='hover:underline underline-offset-2 transition-all'>
-                    <h1 className='my-2 w-full text-left dark:text-light text-xl font-bold lg:text-2xl sm:text-xl xs:text-xs line-clamp-1'> {title} </h1>
+                    <h1 className='my-2 w-full text-left dark:text-light text-xl font-bold lg:text-2xl sm:text-xl line-clamp-1'> {title} </h1>
                 </Link>
                 <p className='font-medium text-xs dark:text-light/70 line-clamp-1'>{summary}</p>
             </div>
