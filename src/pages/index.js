@@ -59,8 +59,8 @@ export default function Home() {
         <meta name="description" content="Available Services: Web Design, Web Development, Website Error Fix, Website Redesign, Website SEO, SEO, Youtube Channel SEO, Youtube Video SEO" />
       </Head>
 
-      <main className='flex items-center text-dark dark:text-light m-auto min-h-screen xs:h-[80vh]'>
-        <Layout className='py-0 sm:py-6 h-auto'>
+      <main className='flex items-center text-dark dark:text-light m-auto min-h-screen sm:h-auto xs:h-auto'>
+        <Layout className='py-0 sm:py-0 h-auto'>
           <div className='flex items-center justify-between w-full lg:flex-col'>
             <div className='w-1/2 flex flex-col items-center self-center lg:text-center lg:w-full lg:order-2'>
               <AnimatedText text="Hey👋 I'm a web developer ready to assist you!" className='text-6xl text-left xl:!text-5xl lg:!text-center lg:!text-5xl md:!text-4xl sm:!text-3xl' />
