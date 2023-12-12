@@ -60,10 +60,10 @@ export default function Home() {
       </Head>
 
       <main className='flex items-center text-dark dark:text-light m-auto min-h-screen xs:h-[80vh]'>
-        <Layout className='py-0 sm:py-6'>
+        <Layout className='py-0 sm:py-6 sm:px-0'>
           <div className='flex items-center justify-between w-full lg:flex-col'>
             <div className='w-1/2 flex flex-col items-center self-center lg:text-center lg:w-full lg:order-2'>
-              <AnimatedText text="welcome to code unlocked community 2024" className='text-6xl text-left xl:!text-5xl lg:!text-center lg:!text-5xl md:!text-4xl sm:!text-3xl' />
+              <AnimatedText text="Hey👋 I'm a web developer ready to assist you!" className='text-6xl text-left xl:!text-5xl lg:!text-center lg:!text-5xl md:!text-4xl sm:!text-3xl' />
               <p className='my-4 text-base dark:text-light/60 font-medium md:text-sm sm:text-xs'>
                 As a skilled frontend web developer, I specialize in creating advanced web applications. Explore my recent projects and articles highlighting my Next.js and web development expertise.
               </p>

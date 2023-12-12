@@ -19,10 +19,10 @@ const Footer = () => {
   return (
     <footer className='w-full border-t-2 border-solid dark:border-light font-medium text-lg dark:text-light'>
       <Layout className='py-12 flex  md:flex-col-reverse items-start justify-between'>
-          <div className='flex flex-col items-start md: md:mt-10 '>
+          <div className='flex flex-col items-start md:mt-10 '>
             <Logo />
 
-            <h3 className=' pt-3 text-lg xs:text-sm'>Contact:<span className='text-base hover:underline xs:text-sm '> +880 1932131373</span></h3>
+            <h3 className=' pt-6 text-lg xs:text-sm'>Contact:<span className='text-base hover:underline xs:text-sm '> +880 1932131373</span></h3>
             <h3 className=' pt-1 text-lg xs:text-sm'>Email:<span className='text-base hover:underline xs:text-sm '> nextdev0.002@gmail.com </span></h3>
             <span className='text-base xs:text-sm bg-dark text-light dark:bg-light dark:text-dark mt-5 px-3 py-1 rounded-sm '>
               {new Date().getFullYear()} &copy; All Rights Reserved
