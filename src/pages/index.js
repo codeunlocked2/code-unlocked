@@ -55,17 +55,17 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title> AshiQur Rahman | Full-stack Web Developer</title>
-        <meta name="description" content="Available Services: Web Design, Web Development, Website Error Fix, Website Redesign, Website SEO, SEO,    Youtube Channel SEO, Youtube Video SEO" />
+        <title> AshiQur Rahman | Frontend Web Developer</title>
+        <meta name="description" content="Available Services: Web Design, Web Development, Website Error Fix, Website Redesign, Website SEO, SEO, Youtube Channel SEO, Youtube Video SEO" />
       </Head>
 
-      <main className='flex items-center text-dark dark:text-light m-auto min-h-screen xs:min-h-0'>
-        <Layout className='py-0'>
+      <main className='flex items-center text-dark dark:text-light m-auto min-h-screen xs:h-[80vh]'>
+        <Layout className='py-0 sm:py-6'>
           <div className='flex items-center justify-between w-full lg:flex-col'>
             <div className='w-1/2 flex flex-col items-center self-center lg:text-center lg:w-full lg:order-2'>
-              <AnimatedText text="Transform Your Ideas into Online Platform" className='text-6xl text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl' />
+              <AnimatedText text="welcome to code unlocked community 2024" className='text-6xl text-left xl:!text-5xl lg:!text-center lg:!text-5xl md:!text-4xl sm:!text-3xl' />
               <p className='my-4 text-base dark:text-light/60 font-medium md:text-sm sm:text-xs'>
-                As a skilled full-stack developer, I specialize in creating advanced web applications. Explore my recent projects and articles highlighting my Next.js and web development expertise.
+                As a skilled frontend web developer, I specialize in creating advanced web applications. Explore my recent projects and articles highlighting my Next.js and web development expertise.
               </p>
 
               <div className='flex items-center self-start mt-3 lg:self-center'>
@@ -113,9 +113,9 @@ export default function Home() {
 
             <div className='w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center ' >
               <h1 className='flex items-center mb-3 self-start font-bold text-3xl text-black/70 dark:text-light/70 lg:self-center md:text-3xl sm:text-xl'>Hello, Iʼm AshiQur Rahman</h1>
-              <AnimatedText text="Full-stack Web Developer." className='!text-6xl text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl' />
+              <AnimatedText text="Frontend Web Developer." className='!text-6xl text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl' />
               <p className='my-4 text-base dark:text-light/60 font-medium md:text-sm sm:text-xs'>
-                Iʼm a dedicated full-stack developer with a passion for crafting engaging web experiences. With a focus on creating innovative solutions, Iʼm here to bring your digital ideas to life.
+                Iʼm a dedicated frontend web developer with a passion for crafting engaging web experiences. With a focus on creating innovative solutions, Iʼm here to bring your digital ideas to life.
               </p>
 
               <div className='flex items-center self-start mt-3 lg:self-center'>

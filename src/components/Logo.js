@@ -5,10 +5,10 @@ import Image from 'next/image'
 
 const Logo = () => {
   return (
-    <div className='flex items-center justify-center mt-2 text-3xl font-bold dark:text-light'>
+    <div className='relative flex items-center justify-center mt-2 text-3xl font-bold dark:text-light'>
       <Link href='/'> 
         {/* <Image src={Logo} /> */}
-        Secret
+        <span className='text-3xl'>Code</span> <span className='absolute top-7 left-12 text-sm'>Unlocked</span>
        </Link>
     </div>
   )

@@ -2,6 +2,7 @@ import React from 'react'
 import { FacebookIcon, GithubIcon, HtmlIcon, LinkedInIcon, PinterestIcon, YouTubeIcon } from './Icons'
 
 import { motion } from 'framer-motion'
+import { BsInstagram } from 'react-icons/bs'
 
 
 
@@ -22,7 +23,7 @@ const SocialIcons = () => {
       </motion.a>
 
       
-      <motion.a href="https://www.youtube.com/@secretcode2.0" target={'_blank'}
+      <motion.a href="https://www.youtube.com/@CodeUnlocked0.2" target={'_blank'}
         whileHover={{y:-4}}
         whileTap={{scale:0.9}}
         className='w-6 mb-3'
@@ -31,7 +32,7 @@ const SocialIcons = () => {
         <YouTubeIcon />
       </motion.a>
 
-      <motion.a href="https://www.pinterest.com/nextdev0002/" target={'_blank'}
+      <motion.a href="https://www.pinterest.com/codeunlocked001/" target={'_blank'}
             whileHover={{y:-4}}
             whileTap={{scale:0.9}}
             className='w-6 mb-3'
@@ -40,7 +41,7 @@ const SocialIcons = () => {
         <PinterestIcon />
       </motion.a>
 
-      <motion.a href="https://github.com/nextdev02" target={'_blank'}
+      <motion.a href="https://github.com/codeunlocked2" target={'_blank'}
             whileHover={{y:-4}}
             whileTap={{scale:0.9}}
             className='w-6 mb-3'

@@ -64,9 +64,9 @@ export default function Home() {
 
           <div className='w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center ' >
               <h1 className='flex items-center mb-3 self-start font-bold text-3xl text-black/70 dark:text-light/70 lg:self-center md:text-3xl sm:text-xl'>Hello, Iʼm AshiQur Rahman</h1>
-              <AnimatedText text="Full-stack Web Developer." className='!text-6xl text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl' />
+              <AnimatedText text="Frontend Web Developer." className='!text-6xl text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl' />
               <p className='my-4 text-base dark:text-light/60 font-medium md:text-sm sm:text-xs'>
-              Iʼm a passionate full-stack developer with a knack for creating impactful web solutions. With a focus on user-centered design and robust functionality, I thrive on turning ideas into engaging digital experiences. Letʼs build something amazing together!
+              Iʼm a passionate frontend web developer with a knack for creating impactful web solutions. With a focus on user-centered design and robust functionality, I thrive on turning ideas into engaging digital experiences. Letʼs build something amazing together!
               </p>
 
               <div className='flex items-center self-start mt-3 lg:self-center'>
