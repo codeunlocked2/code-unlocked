@@ -23,7 +23,7 @@ const Footer = () => {
             <Logo />
 
             <h3 className=' pt-6 text-lg xs:text-sm'>Contact:<span className='text-base hover:underline xs:text-sm '> +880 1932131373</span></h3>
-            <h3 className=' pt-1 text-lg xs:text-sm'>Email:<span className='text-base hover:underline xs:text-sm '> nextdev0.002@gmail.com </span></h3>
+            <h3 className=' pt-1 text-lg xs:text-sm'>Email:<span className='text-base hover:underline xs:text-sm '> codeunlocked001@gmail.com </span></h3>
             <span className='text-base xs:text-sm bg-dark text-light dark:bg-light dark:text-dark mt-5 px-3 py-1 rounded-sm '>
               {new Date().getFullYear()} &copy; All Rights Reserved
             </span>
@@ -43,8 +43,8 @@ const Footer = () => {
             <CustomLink href="https://wa.me/+8801932131373?`" title='Whats App' target='_blank'className='hover:px-3 duration-150' />
             <CustomLink href="https://m.me/${nextdev2}" target='_blank'title='Messenger' className='pt-1 hover:px-3 duration-150' />
             <CustomLink href="https://t.me/${nextdev2}" title='Telegram' target='_blank' className='pt-1 hover:px-3 duration-150'    />
-            <CustomLink href="/updates" title='Linkedin' target='_blank' className='pt-1 hover:px-3 duration-150'  />
-            <CustomLink href="/support" title='Instagram' target='_blank' className='pt-1 hover:px-3 duration-150'  />
+            <CustomLink href="https://dribbble.com/code_unlocked" title='Dribbble' target='_blank' className='pt-1 hover:px-3 duration-150'  />
+            <CustomLink href="https://www.instagram.com/code_unlocked/" title='Instagram' target='_blank' className='pt-1 hover:px-3 duration-150'  />
           </div>
       </Layout>
     </footer>

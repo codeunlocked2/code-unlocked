@@ -13,6 +13,8 @@ import project6 from "../../public/images/projects/mega.png"
 import project7 from "../../public/images/projects/sehlvet.png"
 import project8 from "../../public/images/projects/sellrs.png"
 import project9 from "../../public/images/projects/levntura.png"
+import project10 from "../../public/images/projects/one-team.png"
+
 
 
 import { motion } from 'framer-motion'
@@ -173,6 +175,18 @@ const projects = () => {
                                 summary="Video background, Prallax header, Clients Slider, Gellery Slider, Creative Ui/Ux, Brand Logo, Cool color combination, Frontend, Travel Website, Fully Responsive for all devices, Just Home Page."
                                 img={project9}
                                 link="https://levntura-five.vercel.app/"
+                                review="/"
+                                type="Featured Projects"
+                            />
+                        </div>
+
+
+                        <div className='col-span-6 lg:col-span-12'>
+                            <FeaturedProjects
+                                title="One Team - Business Process and Consulting Automation"
+                                summary="Creative Ui/Ux, Brand Logo, Cool color combination, Frontend, Business Website, Fully Responsive for all devices, Just Home Page."
+                                img={project10}
+                                link="https://one-team-zeta.vercel.app/"
                                 review="/"
                                 type="Featured Projects"
                             />
