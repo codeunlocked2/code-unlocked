@@ -62,12 +62,12 @@ const support = () => {
 
 
       <main className="w-full flex flex-col items-center justify-center">
-        <Layout className='pt-16'>
+        <Layout className='pt-40'>
           <AnimatedText text="Help & Support" className="!text-7xl text-center xl:!text-5xl pb-28 sm:pb-16 lg:!text-6xl md:!text-5xl sm:!text-3xl" />
 
           <div className="grid grid-cols-12 w-full mx-auto relative gap-16 xl:gap-x-8 lg:gap-x-2 md:gap-y-8 sm:gap-x-0">
             <div className="col-span-12">
-              <FeaturedProjects title="Note: Click on the Quesion Box to see the answer. " summary="Hello There, Welcome :)" />
+             <h1 className='font-bold  text-2xl'> <span className='text-[#ff1f1f] text-3xl' >Note:</span> Click on the box to see the questions answer.</h1>
             </div>
 
             <div className="col-span-6 lg:col-span-12">

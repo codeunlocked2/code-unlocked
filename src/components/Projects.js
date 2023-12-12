@@ -10,7 +10,7 @@ const FeaturedProjects = ({ title, summary, img, link }) => {
             <Link href={link} target='_blank'
                 className='w-full cursor-pointer overflow-hidden rounded-lg'
             >
-                <Image src={img} alt={title} className='w-full h-auto scale-95 rounded-2xl hover:scale-100 transition duration-500 cursor-pointer'
+                <Image src={img} alt={title} className='w-full h-auto scale-100 rounded-2xl hover:scale-95 transition duration-500 cursor-pointer'
                     priority
                     sizes='(max-width: 768px) 100vw,
                     (max-width: 1200px) 50vw, 50vw

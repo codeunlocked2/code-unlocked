@@ -30,7 +30,7 @@ const FeaturedProjects = ({ type, title, summary, img, link, review }) => {
             <Link href={link} target='_blank'
                 className='w-full cursor-pointer overflow-hidden rounded-lg'
             >
-                <Image src={img} alt={title} className='w-full h-auto border dark:border-none scale-95 rounded-2xl hover:scale-100 transition duration-500 cursor-pointer'
+                <Image src={img} alt={title} className='w-full h-auto border dark:border-none scale-100 rounded-2xl hover:scale-95 transition duration-500 cursor-pointer'
                     priority
                     sizes='(max-width: 768px) 100vw,
                     (max-width: 1200px) 50vw, 50vw
@@ -65,7 +65,7 @@ const projects = () => {
 
 
             <main className='w-full flex flex-col items-center justify-center'>
-                <Layout className='pt-16'>
+                <Layout className='pt-40'>
                     <AnimatedText text="Completed Projects" className='!text-7xl text-start mb-20 xl:!text-6xl lg:!text-5xl md:!text-5xl sm:!text-3xl' />
                     <div className=' grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'>
                         <div className='col-span-6 lg:col-span-12'>

@@ -50,7 +50,7 @@ export default function Home() {
 
       <main className='flex w-full flex-col items-center justify-center'>
 
-        <Layout className='xs:pt-16 lg:pt-16 sm:pt-12'>
+        <Layout className='pt-48 lg:pt-24 sm:pt-24'>
 
         <div className='flex items-center justify-between w-full pt-1 lg:pt-1  lg:flex-col '>
 
