@@ -129,9 +129,9 @@ export default function Home() {
             </div>
           </div>
 
-          <div className='grid grid-cols-12 gap-16 xs:gap-4 lg:gap-8 gap-y-16 items-center justify-between  mt-32 lg:mt-24 xs:mt-16'>
+          <div className='grid grid-cols-12 gap-16 xs:gap-4 lg:gap-8 gap-y-16 items-center justify-between mt-32 lg:mt-24 xs:mt-16'>
 
-            <div className='col-span-4 lg:col-span-6 md:col-span-6 xs:col-span-12  items-end justify-center text-dark/80 dark:text-light rounded-lg px-8 py-4 border border-solid hover:bg-gray-100 dark:hover:bg-light/10 duration-300'>
+            <div className='col-span-4 lg:col-span-6 md:col-span-6 xs:col-span-6  items-end justify-center text-dark dark:text-light rounded-lg px-8 py-4 border border-solid hover:bg-gray-100 dark:hover:bg-light/10 duration-300'>
               <span className='inline-block text-7xl font-bold cursor-pointer xl:text-5xl lg:text-5xl md:text-4xl sm:text-3xl'>
                 <AanimatedNumbers value={30} />+
               </span>
@@ -139,7 +139,7 @@ export default function Home() {
             </div>
 
 
-            <div className='col-span-4 lg:col-span-6 md:col-span-6 xs:col-span-12 items-end justify-center text-dark/80 dark:text-light  rounded-lg px-8 py-4 border border-solid hover:bg-gray-100 dark:hover:bg-light/10 duration-300 cursor-pointer'>
+            <div className='col-span-4 lg:col-span-6 md:col-span-6 xs:col-span-6  items-end justify-center text-dark dark:text-light rounded-lg px-8 py-4 border border-solid hover:bg-gray-100 dark:hover:bg-light/10 duration-300'>
               <span className='inline-block text-7xl font-bold xl:text-5xl lg:text-5xl md:text-4xl sm:text-3xl'>
                 <AanimatedNumbers value={10} />+
               </span>
@@ -147,7 +147,7 @@ export default function Home() {
             </div>
 
 
-            <div className='col-span-4 lg:col-span-6 md:col-span-8 xs:col-span-12 items-end justify-center text-dark/80 dark:text-light  rounded-lg px-8 py-4 border border-solid hover:bg-gray-100 dark:hover:bg-light/10 duration-300 cursor-pointer'>
+            <div className='col-span-4 lg:col-span-6 md:col-span-6 xs:col-span-6  items-end justify-center text-dark dark:text-light rounded-lg px-8 py-4 border border-solid hover:bg-gray-100 dark:hover:bg-light/10 duration-300'>
               <span className='inline-block text-7xl font-bold xl:text-5xl lg:text-5xl md:text-4xl sm:text-3xl'>
                 <AanimatedNumbers value={3} />+
               </span>

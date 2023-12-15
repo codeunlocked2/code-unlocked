@@ -101,12 +101,12 @@ const updates = () => {
                 <meta name="description" content="Available Services: Web Design, Web Development, Website Error Fix, Website Redesign, Website SEO, SEO,    Youtube Channel SEO, Youtube Video SEO" />
             </Head>
             <main className='w-full m-auto flex flex-col items-center justify-center overflow-hidden '>
-                <Layout className='pt-40'>
+                <Layout className='pt-40 sm:pt-36'>
                     <AnimatedText text="Leatest Updates" className='!text-7xl text-left mb-16 xl:!text-5xl lg:!text-6xl md:!text-5xl sm:!text-3xl' />
 
                     <AnimatedText text="Aug, 2023" className='!text-6xl text-dark/10 dark:text-light/20 text-left mb-16 xl:!text-5xl lg:!text-6xl md:!text-5xl sm:!text-3xl' />
 
-                    <ul className='grid grid-cols-2 w-[100%] gap-16 md:grid-cols-1 md:gap-y-16'>
+                    <ul className='grid grid-cols-2 w-[100%] gap-16 md:grid-cols-1 md:gap-y-8'>
                         <FeaturedUpdates
                             title="Next JS Image transition Effect
                         "

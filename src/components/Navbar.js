@@ -50,7 +50,7 @@ const Navbar = () => {
 
   return (
 <header
-  className='fixed w-full px-32 py-4 font-medium bg-[#201f1f00] backdrop-blur-[5px] flex items-center justify-between dark:text-light lg:px-16 md:px-12 sm:px-5 z-20'
+  className='fixed w-full px-32 py-4 font-medium bg-light dark:bg-dark backdrop-blur-[5px] flex items-center justify-between dark:text-light lg:px-16 md:px-12 sm:px-5 z-20'
 >
 
     <div className='w-full justify-between items-center hidden lg:flex'>

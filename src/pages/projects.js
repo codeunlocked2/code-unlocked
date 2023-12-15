@@ -68,7 +68,7 @@ const projects = () => {
 
 
             <main className='w-full flex flex-col items-center justify-center'>
-                <Layout className='pt-40'>
+                <Layout className='pt-40 sm:pt-36'>
                     <AnimatedText text="Completed Projects" className='!text-7xl text-start mb-20 xl:!text-6xl lg:!text-5xl md:!text-5xl sm:!text-3xl' />
                     <div className=' grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'>
                         <div className='col-span-6 lg:col-span-12'>
