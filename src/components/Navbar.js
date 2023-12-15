@@ -89,7 +89,7 @@ const Navbar = () => {
         <CustomLink href="/" title='Home' className='mr-4' />
         <CustomLink href="/about" title='About' className='mx-4'   />
         <CustomLink href="/projects" title='Projects' className='mx-4'   />
-        <CustomLink href="/updates" title='Updates' className='mx-4' />
+        <CustomLink href="/gallery" title='Gallery' className='mx-4' />
         <CustomLink href="/support" title='Support' className='ml-4' />
       </nav>
 
@@ -131,7 +131,7 @@ const Navbar = () => {
             <CustomMobileLink href="/" icon={<HomeIcon/>} className='mb-6 sm:mb-3 dark:fill-light' aria-label="Home" toggle={handleClick} />
             <CustomMobileLink href="/about" icon={<UserIcon/>} className='mb-10 sm:mb-7 text-2xl' aria-label="About"  toggle={handleClick} />
             <CustomMobileLink href="/projects" icon={<ProjectsIcon/>} className='mb-10 sm:mb-7 text-2xl' aria-label="Projects" toggle={handleClick}  />
-            <CustomMobileLink href="/updates" icon={<UpdateIcon/>} className='mb-10 sm:mb-7 text-2xl' aria-label="Updates" toggle={handleClick}/>
+            <CustomMobileLink href="/gallery" icon={<UpdateIcon/>} className='mb-10 sm:mb-7 text-2xl' aria-label="Gallery" toggle={handleClick}/>
             <CustomMobileLink href="/support" icon={<SupportIcon/>}className='text-2xl' aria-label="Support" toggle={handleClick} />
           </nav>
   

@@ -11,7 +11,6 @@ import SocialIcons from '@/components/SocialIcons'
 import { useEffect, useRef } from 'react'
 import { useInView, useMotionValue, useSpring } from 'framer-motion'
 import Projects from '@/components/Projects'
-import Updates from '@/components/Updates'
 
 import { AiFillHtml5 } from 'react-icons/ai';
 import { MdDeveloperMode } from 'react-icons/md';
@@ -255,11 +254,6 @@ export default function Home() {
           </div>
 
         </Layout>
-      </main>
-
-
-      <main>
-        <Updates />
       </main>
 
     </>
