@@ -5,6 +5,15 @@ import AnimatedText from '@/components/AnimatedText'
 import Image from 'next/image'
 import sehlvet from "../../public/images/gallery/sehlvet.png"
 import apple from "../../public/images/gallery/apple.png"
+import secret from "../../public/images/gallery/secret-ai.png"
+import transition from "../../public/images/gallery/next-transition.png"
+import sellrs from "../../public/images/gallery/sellrs.png"
+import levntura from "../../public/images/gallery/levntura.png"
+import oneteam from "../../public/images/gallery/oneteam.png"
+import dyshez from "../../public/images/gallery/dyshez.png"
+import music from "../../public/images/gallery/music-1.png"
+import login from "../../public/images/gallery/login.png"
+import search from "../../public/images/gallery/search.png"
 
 import { motion } from 'framer-motion'
 
@@ -16,8 +25,8 @@ const FeaturedUpdates = ({ img }) => {
             whileInView={{ y: 0, transition: { duration: 0.7, ease: "easeIn" } }}
             viewport={{ once: true }}
 
-            className='flex items-start h-auto w-full mx-auto p-1 gap-24 bg-light dark:bg-dark rounded-md transition-all mb-12'>
-            <Image src={img} alt='Sehlvet website' className='w-full h-auto border  rounded-md scale-100 transition duration-500 cursor-pointer'
+            className='flex items-start h-auto w-full mx-auto p-1 gap-24 bg-light dark:bg-dark rounded-md transition-all mb-8'>
+            <Image src={img} alt='Sehlvet website' className='w-full h-auto border border-dark/10 dark:border-white/30 rounded-md scale-100 hover:scale-95 transition duration-500 cursor-pointer'
                 priority
                 sizes='(max-width: 768px) 100vw,
                   (max-width: 1200px) 50vw, 50vw
@@ -50,6 +59,61 @@ const gallery = () => {
                             title="Next JS Image transition Effect
                         "
                             img={apple}
+                        />
+
+                        <FeaturedUpdates
+                            title="Next JS Image transition Effect
+                        "
+                            img={secret}
+                        />
+
+
+                        <FeaturedUpdates
+                            title="Next JS Image transition Effect
+                        "
+                            img={transition}
+                        />
+
+                        <FeaturedUpdates
+                            title="Next JS Image transition Effect
+                        "
+                            img={sellrs}
+                        />
+
+                        <FeaturedUpdates
+                            title="Next JS Image transition Effect
+                        "
+                            img={levntura}
+                        />
+
+                        <FeaturedUpdates
+                            title="Next JS Image transition Effect
+                        "
+                            img={oneteam}
+                        />
+
+                        <FeaturedUpdates
+                            title="Next JS Image transition Effect
+                        "
+                            img={dyshez}
+                        />
+
+                        <FeaturedUpdates
+                            title="Next JS Image transition Effect
+                        "
+                            img={music}
+                        />
+
+                        <FeaturedUpdates
+                            title="Next JS Image transition Effect
+                        "
+                            img={login}
+                        />
+
+                        <FeaturedUpdates
+                            title="Next JS Image transition Effect
+                        "
+                            img={search}
                         />
                     </ul>
                 </Layout>
